@@ -1,7 +1,7 @@
 :numbered:
 
-Configuring the Physical Infrastructure Provider
-================================================
+Lenovo XClarity Administrator Integrator for CFME
+=================================================
 Lenovo Documentation <icfeedback@lenovo.com>
 v1.0, October 17, 2017
 
