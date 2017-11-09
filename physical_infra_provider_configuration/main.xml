@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?><?asciidoc-toc?><?asciidoc-numbered?><article xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0" xml:lang="en">
+<info>
+<title>Configuring the Physical Infrastructure Provider</title>
+<date>October 17, 2017</date>
+<author>
+<personname>
+<firstname>Lenovo</firstname>
+</personname>
+</author>
+<authorinitials>L</authorinitials>
+<revhistory>
+<revision>
+<revnumber>1.0</revnumber>
+<date>October 17, 2017</date>
+<authorinitials>L</authorinitials>
+</revision>
+</revhistory>
+</info>
+<section xml:id="_overview">
+<title>Overview</title>
+<section xml:id="_architecture_overview">
+<title>Architecture Overview</title>
+
+</section>
+<section xml:id="_configuration_overview">
+<title>Configuration Overview</title>
+
+</section>
+</section>
+<section xml:id="_configuring_the_physical_infrastructure_provider">
+<title>Configuring the Physical Infrastructure Provider</title>
+<section xml:id="_configuration_prerequisites">
+<title>Configuration Prerequisites</title>
+
+</section>
+<section xml:id="_install_and_configure_lxca">
+<title>Install and Configure LXCA</title>
+
+</section>
+<section xml:id="_add_and_configure_the_physical_infrastructure_provider">
+<title>Add and Configure the Physical Infrastructure Provider</title>
+
+</section>
+</section>
+<section xml:id="_using_the_physical_infrastructure_provider">
+<title>Using the Physical Infrastructure Provider</title>
+<section xml:id="_adding_physical_infrastructure_providers">
+<title>Adding Physical Infrastructure Providers</title>
+<simpara>The Physical Infrastructure Provider extends CloudForms management capabilities for Physical Servers.</simpara>
+<orderedlist numeration="arabic">
+<listitem>
+<simpara>Log in to CloudForms Management Engine as a user who has permission to add providers. The default user is admin, password smartvm.</simpara>
+</listitem>
+<listitem>
+<simpara>Navigate to <emphasis role="strong">Compute → Physical Infrastructure → Providers.</emphasis></simpara>
+</listitem>
+<listitem>
+<simpara>Click <emphasis role="strong">Configuration</emphasis>, then click <emphasis role="strong">Add a New Infrastructure Provider</emphasis>.</simpara>
+</listitem>
+<listitem>
+<simpara>Enter a <emphasis role="strong">Name</emphasis> for the provider, for example, Physical Infrastructure Manager.</simpara>
+</listitem>
+<listitem>
+<simpara>From the <emphasis role="strong">Type</emphasis> list, select Lenovo XClarity.</simpara>
+</listitem>
+<listitem>
+<simpara>Accept the default <emphasis role="strong">Zone</emphasis>.</simpara>
+</listitem>
+<listitem>
+<simpara>In the credentials area provide the following:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Enter the <emphasis role="strong">Hostname</emphasis> or IPV4 or IPV6 address of the machine where you installed the Physical Infra manager.</simpara>
+</listitem>
+<listitem>
+<simpara>Enter <emphasis role="strong">API Port</emphasis> of the Physical infrastructure manager. The default is 443.</simpara>
+</listitem>
+<listitem>
+<simpara>Enter the <emphasis role="strong">Username</emphasis> used to start the Physical infrastructure manager.</simpara>
+</listitem>
+<listitem>
+<simpara>Enter the <emphasis role="strong">Password</emphasis> used to start the Physical Infrastructure manager.</simpara>
+</listitem>
+</itemizedlist>
+</listitem>
+<listitem>
+<simpara>Click <emphasis role="strong">Validate</emphasis> to confirm that the user has the proper credentials.</simpara>
+</listitem>
+<listitem>
+<simpara>Click <emphasis role="strong">Add</emphasis>.</simpara>
+</listitem>
+</orderedlist>
+</section>
+<section xml:id="_discovering_physical_infrastructure_providers">
+<title>Discovering Physical Infrastructure Providers</title>
+<simpara>ManageIQ provides the ability to discover all the Physical Infrastructure providers in determined subnet range.</simpara>
+<orderedlist numeration="arabic">
+<listitem>
+<simpara>Navigate to <emphasis role="strong">Compute → Physical Infrastructure → Providers.</emphasis></simpara>
+</listitem>
+<listitem>
+<simpara>Click <emphasis role="strong">Configuration</emphasis>, then click <emphasis role="strong">Discover Physical Infrastructure Providers</emphasis>.</simpara>
+</listitem>
+<listitem>
+<simpara>The default <emphasis role="strong">Discover Type</emphasis> is Lenovo XClarity Administrator.</simpara>
+</listitem>
+<listitem>
+<simpara>Enter the IP address range starting with <emphasis role="strong">From Address</emphasis> and ending with <emphasis role="strong">To Address</emphasis>.</simpara>
+</listitem>
+<listitem>
+<simpara>Enter the Port.Click <emphasis role="strong">Start</emphasis> to begin the discovery process.</simpara>
+</listitem>
+</orderedlist>
+</section>
+<section xml:id="_refreshing_physical_infrastructure_providers">
+<title>Refreshing Physical Infrastructure Providers</title>
+<simpara>Refresh a Physical Infrastructure Provider to find other resources related to it and retrieve the latest data.</simpara>
+<orderedlist numeration="arabic">
+<listitem>
+<simpara>Navigate to <emphasis role="strong">Compute → Physical Infrastructure → Providers.</emphasis></simpara>
+</listitem>
+<listitem>
+<simpara>Select a Physical Infrastructure Provider to be refreshed.</simpara>
+</listitem>
+<listitem>
+<simpara>Click <emphasis role="strong">Configuration</emphasis>, then click <emphasis role="strong">Refresh Relationships and Power States</emphasis>.</simpara>
+</listitem>
+<listitem>
+<simpara>Click <emphasis role="strong">OK</emphasis>.</simpara>
+</listitem>
+</orderedlist>
+</section>
+<section xml:id="_removing_physical_infrastructure_providers">
+<title>Removing Physical Infrastructure Providers</title>
+<simpara>In order to delete a provider follow the steps bellow:</simpara>
+<orderedlist numeration="arabic">
+<listitem>
+<simpara>Navigate to <emphasis role="strong">Compute → Physical Infrastructure → Providers.</emphasis></simpara>
+</listitem>
+<listitem>
+<simpara>Select the Physical Infrastructure provider to be removed.</simpara>
+</listitem>
+<listitem>
+<simpara>Click <emphasis role="strong">Configuration</emphasis>, then click <emphasis role="strong">Remove Infrastructure Providers from Inventory</emphasis>.</simpara>
+</listitem>
+<listitem>
+<simpara>Click <emphasis role="strong">OK</emphasis>.</simpara>
+</listitem>
+</orderedlist>
+</section>
+<section xml:id="_editing_a_physical_infrastructure_provider">
+<title>Editing a Physical Infrastructure Provider</title>
+<simpara>In order to edit one or more Physical Infrastructure Providers, you have to:</simpara>
+<orderedlist numeration="arabic">
+<listitem>
+<simpara>Navigate to <emphasis role="strong">Compute &gt; Physical Infrastructure &gt; Providers</emphasis>.</simpara>
+</listitem>
+<listitem>
+<simpara>Select the providers you want to edit from the list.</simpara>
+</listitem>
+<listitem>
+<simpara>Click the <emphasis role="strong">Configuration</emphasis> button in the menu.</simpara>
+</listitem>
+<listitem>
+<simpara>Click <emphasis role="strong">Edit selected infrastructure providers</emphasis>.</simpara>
+</listitem>
+<listitem>
+<simpara>Make your changes and revalidate your credentials if necessary.</simpara>
+</listitem>
+<listitem>
+<simpara>Click <emphasis role="strong">Save</emphasis>.</simpara>
+</listitem>
+</orderedlist>
+<simpara>You should see a flash message confirming your changes were performed successfully.</simpara>
+</section>
+<section xml:id="_using_the_topology_widget_for_physical_infrastructure_providers">
+<title>Using the Topology Widget for Physical Infrastructure Providers</title>
+
+</section>
+<section xml:id="_viewing_server_relationships">
+<title>Viewing Server Relationships</title>
+
+</section>
+<section xml:id="_viewing_host_relationships">
+<title>Viewing Host Relationships</title>
+<simpara>You can view Host-associated Physical Servers that belong to the provider. In order to do that, you have to:</simpara>
+<orderedlist numeration="arabic">
+<listitem>
+<simpara>Navigate to <emphasis role="strong">Compute &gt; Physical Infrastructure &gt; Providers</emphasis>.</simpara>
+</listitem>
+<listitem>
+<simpara>Click a Provider from the list.</simpara>
+</listitem>
+<listitem>
+<simpara>Click <emphasis role="strong">Physical Servers with Host button in Relationships section</emphasis>.</simpara>
+</listitem>
+</orderedlist>
+<simpara>You should see a list with the Host-associated Physical Servers.</simpara>
+</section>
+<section xml:id="_managing_physical_servers">
+<title>Managing Physical Servers</title>
+<simpara>Once you have added your physical servers in the ManageIQ, you can list and manage them performing some operations as explain below.</simpara>
+<section xml:id="_viewing_a_physical_server">
+<title>Viewing a Physical Server</title>
+<simpara>To view your physical servers you just have to navigate through the sidebar by the following path: Compute → Physical Infrastructure → Servers.</simpara>
+<simpara>And the page will look like the following, note that there is some options in the right top to change the way that your servers are listed, try it and see what is the best way for you.</simpara>
+</section>
+<section xml:id="_viewing_a_physical_server_s_timeline">
+<title>Viewing a Physical Server’s Timeline</title>
+
+</section>
+<section xml:id="_performing_power_operations_on_a_physical_server">
+<title>Performing Power Operations on a Physical Server</title>
+<simpara>You can also perform some power operations to your servers. To do this, you need just to select the servers that you wish to perform such operations and look at the top left in the Power button, click it and see the operations availables: Power On, Power Off and Restart. As we can see in the screenshot below.</simpara>
+</section>
+<section xml:id="_performing_identify_operations_on_a_physical_server">
+<title>Performing Identify Operations on a Physical Server</title>
+<simpara>Similar to power operations, you can do some identify operations with your physical servers, to do that you just need to select the servers that you want to perform such operations, and look at the top left, at the right side of Power button, and find the Identify button, clickin it the operations  availables will be showed, select one of them to perform. See the screenshot below.</simpara>
+</section>
+</section>
+<section xml:id="_defining_policies_for_physical_infrastructure_providers">
+<title>Defining Policies for Physical Infrastructure Providers</title>
+
+</section>
+</section>
+<section xml:id="_troubleshooting_physical_infrastructure_provider_problems">
+<title>Troubleshooting Physical Infrastructure Provider Problems</title>
+
+</section>
+</article>

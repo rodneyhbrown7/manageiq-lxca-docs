@@ -1,5 +1,7 @@
 ==== Copy the LenovoXclarity class to the domain created
 
+Events managed by Lenovo XClarity Administrator can be used as the basis for policy-based decision making.  To leverage the event catcher,  copy the LenovoXclarity domain to your custom context.
+
 . Select ManageIQ domain and drill down ManageIQ → System → Event → EmsEvent → LenovoXclarity and select **(LenovoXclarity)**.
 
 . Click **(Configuration)**, then click **(Copy this Class)**.

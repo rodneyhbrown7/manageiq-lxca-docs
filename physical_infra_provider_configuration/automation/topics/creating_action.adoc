@@ -1,5 +1,7 @@
 ==== Creating a new action
 
+Actions define the operation or set of operations or methods assigned to a policy.  Custom operations can be developed by the operator or the operator may choose to use an existing operation to define the Action.
+
 . Select Actions option and drill down Action → All Actions and select **(All Actions)**.
 
 . Click **(Configuration)**, then click **(Add a new action)**.

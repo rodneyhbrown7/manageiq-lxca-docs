@@ -2,7 +2,7 @@
 
 . Select the new class created **(Methods)**.
 
-. Select Schema option and click **(Configuration)**, then click *(Edit select Schema)*.
+. Select the Schema option and click **(Configuration)**, then click *(Edit select Schema)*.
 
 . Click **+**.
 
@@ -16,10 +16,10 @@
 
 . Click **Save**.
 
-. Select Instances option and click **(Configuration)**, then click *(Add new Instance)*.
+. Select the Instances option and click **(Configuration)**, then click *(Add new Instance)*.
 
-. Fill the name with *(Physical_Server_Shutdown)*.
+. Enter  *(Physical_Server_Shutdown)* for the name of this connection
 
-. In fields fill the value with *(turn_off)*.
+. In fields,  fill the value with *(turn_off)*.
 
 . Click **Save**.

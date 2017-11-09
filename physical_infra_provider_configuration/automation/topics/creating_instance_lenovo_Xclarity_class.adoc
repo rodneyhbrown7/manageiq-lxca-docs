@@ -1,12 +1,14 @@
 ==== Creating a new instance to the LenovoXclarity class
 
-. Select your domain created and drill down Your Domain name→ System → Event → EmsEvent →LenovoXclarity and select **(LenovoXclarity)**.
+After a custom domain has been generated, the set of actions and events within the scope of that domain can be created.   The most straight forward way to create these definitions is to copy similar definitions from the default domain of the system and edit the definitions directly.
+
+. Select the domain previously created and drill down Custom Domain name→ System → Event → EmsEvent →LenovoXclarity and select **(LenovoXclarity)**.
 
 . Click **(Configuration)**, then click **(Add a new Instance)**.
 
-. Enter with the name
+. Enter the name
 
-    .. The name must be equal to event name that will be managed, because the Cloud Forms match the instance with the event by the name.
+    .. The name must be equal to event name that will be managed, because Cloud Forms matches the instance with the event by the name.
     
     .. Find the name of the event that you wish in this link **<TO DO>**
     
@@ -30,9 +32,9 @@
 
         * physical_server_shutdown
         
-    .. The policy operations and the policy events matches.
+    .. The policy operations and the policy events match.
 
-    .. For example use the follow path to the policy action **Physical Server Shutdown**:
+    .. For example , when creating the **Physical Server Shutdown** policy provide the following path to the policy action:
 
         * /System/event_handlers/event_action_policy?target=physical_server&policy_event=**physical_server_shutdown**&param=
     

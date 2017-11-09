@@ -1,3 +1,3 @@
 == Automation
 
-The automation can be used for configure actions to differents situations that can occurs with the LXCA appliance, this is only possible because the Cloud Forms is able to monitor your appliance and capture the events that occurs with the physical servers. For configure an action is necessary follow some steps as creating and configuring a new Domain and creating, configuring and assigning a new Policy and among others steps.
+Automation is used to define actions that leverage the capabilities of Lenovo XClarity Administrator and the Cloud Forms Management Engine.  Automation can be paired with events and event triggers (conditions) to develop a policy. To get started with defining an automated operation, follow these steps to create and configure a new Domain, Namespace, Classes and Methods.  

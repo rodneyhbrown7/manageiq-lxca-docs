@@ -1,8 +1,11 @@
 ==== Assigning a new Policy Profile
 
+Policies can be used to automated reactions to events within the scope of manageiq. Using the Policy mechanism in conjunction with the functions of Automate, an operator can power down, power on or restart a physical server as the result of a server event or the removal of a virtual machine.   Policies can be tailored to the business needs of individual clients.
+
+
 . Navigate to Compute → Physical Infrastructure → Providers and select **(Providers).**
 
-. Select the provider that you wish assign to the policy profile.
+. Select the provider that you wish to assign to the policy profile.
 
 . Click **(Policy)**, then click **(Manage Policies)**.
 

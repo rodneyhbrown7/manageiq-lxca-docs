@@ -1,5 +1,7 @@
 ==== Creating a new method
 
+Methods provide a way for the operator to re-use existing operations exposed by the product or a provider. Operators may also define custom methods as outlined below:
+
 . Select the new class created **(Methods)**.
 
 . Select Methods and click **(Configuration)**, then click *(Add a new method)*.
