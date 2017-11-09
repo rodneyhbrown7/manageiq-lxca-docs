@@ -1,6 +1,6 @@
 === Refreshing Physical Infrastructure Providers
 
-Refresh a Physical Infrastructure Provider to find other resources related to it and retrieve the latest data.
+The data collected by a provider will be refreshed periodically.  An operator may refresh a Physical Infrastructure Provider manually to find related resources related and retrieve the latest data.
 
 . Navigate to *Compute → Physical Infrastructure → Providers.*
 

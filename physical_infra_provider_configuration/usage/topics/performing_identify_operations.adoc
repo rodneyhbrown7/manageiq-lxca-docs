@@ -1,3 +1,7 @@
 ==== Performing Identify Operations on a Physical Server
 
-Similar to power operations, you can do some identify operations with your physical servers, to do that you just need to select the servers that you want to perform such operations, and look at the top left, at the right side of Power button, and find the Identify button, clickin it the operations  availables will be showed, select one of them to perform. See the screenshot below.
+The location LED on the physical server can be turned on, off or set to blink through a button on the summary page or physical server list page. The location LED can be used by an operator to visually locate a server within the DataCenter. To adjust the location LED:
+
+. Select the servers that you want to perform such operations, and look at the top left, at the right side of Power button, and 
+. Find the Identify button on the toolbar
+. Select the desired operation (on, off, blinking). 

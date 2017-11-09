@@ -1,6 +1,6 @@
 === Editing a Physical Infrastructure Provider
-In order to edit one or more Physical Infrastructure Providers, you have to:
-[arabic]
+Over time the configuration of the provider connection may change. Changes may include hostname updates or updates to the connection credentials.  In order to edit one or more Physical Infrastructure Providers, you can:
+
 . Navigate to *Compute > Physical Infrastructure > Providers*.
 . Select the providers you want to edit from the list.
 . Click the *Configuration* button in the menu.
